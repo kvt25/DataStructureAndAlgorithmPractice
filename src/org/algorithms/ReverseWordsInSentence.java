@@ -1,32 +1,34 @@
+/*
+Given an input string, reverse the string word by word in-place (without using additional array)
+
+Example:  
+
+Input: "today is a good day",
+Output: "day good a is today".
+ */
+
 package org.algorithms;
 
 public class ReverseWordsInSentence {
 
 	public static void main(String[] args) {
-		/*
-		char[] input = {'t','o','d','a','y',' ','i','s',' ','a',' ','g','o','o','d',' ','d','a','y'};
-		input = new char[] {'p','e','r','f','e','c','t',' ','m','a','k','e','s',' ','p','r','a','c','t','i','s','e'};
+		String inputStr = "today is a good day";
+		char[] inputArray = inputStr.toCharArray();
 		int wordLeftIndex = 0;
 		int wordRightIndex = 0;
-		for(int i=0; i<input.length; i++) {
-			if(input[i] == ' ') {
+		for(int i=0; i < inputArray.length; i++) {
+			if(inputArray[i] == ' ') {
 				wordRightIndex = i - 1;
-			} else if(i==input.length - 1) {
+			} else if(i == inputArray.length - 1) {
 				wordRightIndex = i;
 			}
-			if(wordRightIndex - wordLeftIndex > 0) {
-				swapWord(input, wordLeftIndex, wordRightIndex);
+			if(wordRightIndex - wordLeftIndex > 0 || (wordLeftIndex > 0 && wordRightIndex > 0 && wordLeftIndex == wordRightIndex)) {
+				swapWord(inputArray, wordLeftIndex, wordRightIndex);
 				wordLeftIndex = wordRightIndex + 2;
 			}
 		}
-		swapWord(input, 0, input.length-1);
-		printResult(input);
-		*/
-		String a = "aaa";
-		String b = new String("aaa");
-		if(a.equals(b)) {
-			System.out.println("a==b");
-		}
+		swapWord(inputArray, 0, inputArray.length-1);
+		printResult(inputArray);
 	}
 
 	private static void printResult(char[] input) {
@@ -44,5 +46,4 @@ public class ReverseWordsInSentence {
 			i++;
 		}
 	}
-
 }

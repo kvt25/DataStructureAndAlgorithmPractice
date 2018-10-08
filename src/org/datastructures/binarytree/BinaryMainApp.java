@@ -1,8 +1,5 @@
 package org.datastructures.binarytree;
 
-import com.binary.node.Node;
-import com.binary.tree.BinaryTree;
-
 public class BinaryMainApp {
 
 	public static void main(String args[])  
