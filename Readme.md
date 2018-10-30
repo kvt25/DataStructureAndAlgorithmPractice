@@ -14,6 +14,8 @@
 
 6. Rearrange Strings if each one next to another differing one character
 
+7. Word Ladder problem (To list out all paths from start to goal word)
+
 **Data structures**
 1. Binary tree
   Implement problems in http://cslibrary.stanford.edu/110/BinaryTrees.html
