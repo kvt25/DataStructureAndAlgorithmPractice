@@ -16,6 +16,8 @@
 
 7. Word Ladder problem (To list out all paths from start to goal word)
 
+8. Given array of integers, find the maximal possible sum of some of its k consecutive elements.
+
 **Data structures**
 1. Binary tree
   Implement problems in http://cslibrary.stanford.edu/110/BinaryTrees.html
