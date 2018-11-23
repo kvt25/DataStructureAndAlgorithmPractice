@@ -18,6 +18,8 @@
 
 8. Given array of integers, find the maximal possible sum of some of its k consecutive elements.
 
+9. A string is said to be beautiful if b occurs in it no more times than a; c occurs in it no more times than b; etc.
+
 **Data structures**
 1. Binary tree
   Implement problems in http://cslibrary.stanford.edu/110/BinaryTrees.html
