@@ -22,6 +22,8 @@
 
 10. Given a valid email address, find its domain part (The domain name part of an email address may only consist of letters, digits, hyphens and dots.)
 
+11. Election winner: Given an array of the numbers of votes given to each of the candidates so far, and an integer k equal to the number of voters who haven't cast their vote yet, find the number of candidates who still have a chance to win the election. (refer to ElectionWinner.java for details)
+
 **Data structures**
 1. Binary tree
   Implement problems in http://cslibrary.stanford.edu/110/BinaryTrees.html
